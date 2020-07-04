@@ -1,0 +1,116 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#backdrop{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#login-proceed-Container{
+    min-height: 300px;
+    min-width: 200px;
+    background: transparent;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+#login-Container{
+    min-height: 300px;
+    min-width: 200px;
+    background: transparent;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+#register-Container{
+    min-height: 300px;
+    min-width: 200px;
+    background: transparent;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.form-footer-text{
+    background: transparent;
+    color: white;
+    border: none;
+    margin: 0px 20px 0px 20px;
+    cursor: pointer;
+}
+
+.form-footer-text:focus{
+    outline: none;
+}
+
+.loginbutton{
+    min-width: 200px;
+    min-height: 50px;
+    margin: 20px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 40px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.loginbutton:hover{
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+
+.loginbutton:focus{
+    outline: none;
+}
+
+label{
+    color: white;
+    font-size: 15px;
+}
+
+p{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+input{
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 40px;
+    height: 30px;
+    min-width: 200px;
+    min-height: 20px;
+    margin: 5px;
+}
+
+input:hover{
+    background: white;
+    color: black;
+    min-width: 220px;
+    min-height: 25px;
+}
+
+input:focus{
+    background: white;
+    color: black;
+    min-width: 220px;
+    min-height: 25px;
+    outline: none;
+}
